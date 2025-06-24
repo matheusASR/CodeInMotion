@@ -68,7 +68,7 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white shadow-lg rounded-lg">
-              {['Home', 'About', 'Portfolio', 'Services', 'Contact'].map((item) => (
+              {['Home', 'About', 'Services', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
